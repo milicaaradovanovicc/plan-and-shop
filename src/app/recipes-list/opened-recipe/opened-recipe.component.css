@@ -1,0 +1,7 @@
+.border,
+.border-2,
+.rounded {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}

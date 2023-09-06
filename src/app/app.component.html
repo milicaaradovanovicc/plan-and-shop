@@ -1,0 +1,51 @@
+<div class="background-image">
+  <div class="overlay-content">
+    <nav class="navbar navbar-expand-lg transparent-navbar">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          routerLink=""
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >Plan&Shop</a
+        >
+
+        <button class="navbar-toggler" (click)="toggleNavbar()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse"
+          [ngClass]="{ show: isNavbarOpen }"
+        >
+          <div class="navbar-nav">
+            <a
+              routerLink="/addnewrecipe"
+              routerLinkActive="active"
+              class="nav-link"
+              >Dodaj novi recept</a
+            >
+            <a
+              routerLink="/recipeslist"
+              routerLinkActive="active"
+              class="nav-link"
+              >Lista recepata</a
+            >
+            <a routerLink="/weekplan" routerLinkActive="active" class="nav-link"
+              >Nedeljni plan obroka</a
+            >
+            <a
+              routerLink="/shoppinglist"
+              routerLinkActive="active"
+              class="nav-link"
+              >Lista za kupovinu</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

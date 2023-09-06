@@ -1,0 +1,38 @@
+.chicken {
+  background-color: rgb(228, 228, 193);
+}
+.beef {
+  background-color: brown;
+}
+.fish {
+  background-color: rgb(50, 50, 181);
+}
+.canned_fish {
+  background-color: grey;
+}
+.milk {
+  background-color: antiquewhite;
+}
+.fruit {
+  background-color: rgb(236, 31, 59);
+}
+.vegetables {
+  background-color: rgb(3, 99, 3);
+}
+.frozen {
+  background-color: rgb(117, 211, 255);
+}
+.hidrates {
+  background-color: rgb(249, 196, 99);
+}
+.other {
+  background-color: rgb(194, 130, 255);
+}
+
+.border,
+.border-2,
+.rounded {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
